@@ -8,8 +8,8 @@
   <Privileged>false</Privileged>
   <Support>https://github.com/odoo/docker/issues?q=is%3Aissue</Support>
   <Project>https://github.com/odoo/docker</Project>
-  <Overview>Odoo is a suite of open source business apps that cover all your company needs: CRM, eCommerce, accounting, inventory, point of sale, project management, etc.&#xD;
-&#xD;
+  <Overview>Odoo is a suite of open source business apps that cover all your company needs: CRM, eCommerce, accounting, inventory, point of sale, project management, etc.
+
 Odoo's unique value proposition is to be at the same time very easy to use and fully integrated.</Overview>
   <Category>Other: Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:8069]</WebUI>
