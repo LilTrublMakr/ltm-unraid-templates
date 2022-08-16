@@ -6,7 +6,7 @@
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://github.com/ncarlier/webhookd/issues?q=is%3Aissue</Support>
   <Project>https://github.com/ncarlier/webhookd</Project>
   <Overview>A very simple webhook server to launch shell scripts.</Overview>
   <Category>Network:Other</Category>
