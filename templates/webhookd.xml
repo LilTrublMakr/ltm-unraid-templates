@@ -9,7 +9,7 @@
   <Support>https://github.com/ncarlier/webhookd/issues?q=is%3Aissue</Support>
   <Project>https://github.com/ncarlier/webhookd</Project>
   <Overview>A very simple webhook server to launch shell scripts.</Overview>
-  <Category>Network:Other</Category>
+  <Category>Tools: Other: Network:Other</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/LilTrublMakr/unraid-templates/master/templates/webhookd.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/LilTrublMakr/ltm-unraid-templates/master/icons/webhookd.png</Icon>
