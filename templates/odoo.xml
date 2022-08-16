@@ -14,7 +14,7 @@ Odoo's unique value proposition is to be at the same time very easy to use and f
   <Category>Other: Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:8069]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/LilTrublMakr/unraid-templates/master/templates/odoo.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/docker-library/docs/a11348f9798f9c5e51e92409ebf4d5b39988fd13/odoo/logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/LilTrublMakr/ltm-unraid-templates/master/icons/odoo.png</Icon>
   <Requires>PostgreSQL database</Requires>
   <ReadMe>https://github.com/docker-library/docs/tree/master/odoo#readme</ReadMe>
   <Changes>
