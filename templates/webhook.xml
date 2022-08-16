@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>webhook</Name>
+  <Repository>thecatlady/webhook:latest</Repository>
+  <Registry>https://hub.docker.com/r/thecatlady/webhook</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/thecatlady/docker-webhook</Project>
+  <Overview>webhook is a lightweight configurable tool written in Go, that allows you to easily create HTTP endpoints (hooks) on your server, which you can use to execute configured commands. You can also pass data from the HTTP request (such as headers, payload or query variables) to your commands. webhook also allows you to specify rules which have to be satisfied in order for the hook to be triggered.</Overview>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:9000]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/LilTrublMakr/unraid-templates/master/templates/webhook.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/LilTrublMakr/ltm-unraid-templates/master/icons/webhook.png</Icon>
+  <PostArgs>-verbose -hooks=/config/hooks.json -hotreload</PostArgs>
+  <Changes>
+### 2022-08-15
+- Initial release.
+  </Changes>
+  <Config Name="Config" Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/webhook</Config>
+  <Config Name="Port" Target="9000" Default="9000" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">9000</Config>
+</Container>
