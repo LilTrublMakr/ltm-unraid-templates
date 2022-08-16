@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+  <Icon>https://raw.githubusercontent.com/LilTrublMakr/ltm-unraid-templates/master/icons/LTM-Logo.png</Icon>
+  <Profile>
+    Just adding a few more containers that are not on CA already...
+  </Profile>
+  <WebPage>https://ltm56.com</WebPage>
+  <DonateLink>https://www.paypal.me/liltrublmakr</DonateLink>
+  <DonateText>Any donations would be appreciated!</DonateText>
+</Maintainer>
