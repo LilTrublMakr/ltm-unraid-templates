@@ -6,7 +6,7 @@
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>true</Privileged>
-  <Support>https://hub.docker.com/r/mmgoodnow/cross-seed/</Support>
+  <Support>https://github.com/cross-seed/cross-seed/issues?q=is%3Aissue</Support>
   <Project>https://github.com/cross-seed/cross-seed</Project>
   <Overview>Fully-automatic cross-seeding with Jackett
 
@@ -19,6 +19,8 @@ https://hub.docker.com/r/mmgoodnow/cross-seed/</Overview>
   <Icon>https://raw.githubusercontent.com/LilTrublMakr/ltm-unraid-templates/master/icons/cross-seed.png</Icon>
   <PostArgs>daemon</PostArgs>
   <Changes>
+### 2021-09-18
+  - Updated support URL
 ### 2022-08-18
   - Initial template release.
   </Changes>
