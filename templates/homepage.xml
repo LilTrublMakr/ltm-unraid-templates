@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Homepage</Name>
+  <Repository>ghcr.io/benphelps/homepage</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/benphelps/homepage/issues?q=is%3Aissue</Support>
+  <Project>https://github.com/benphelps/homepage</Project>
+  <Overview>Homepage is a start page for your browser.
+    
+    Key Features:
+    - Fast! The entire site is statically generated at build time, so you can expect instant load times.
+    - Minimal! The homepage is designed to be as minimal as possible, so you can focus on what matters.
+    - Customizable! You can customize the homepage to your liking. There are 21 built in themes to choose from. You can add your own background image as well!
+    - Docker Integration! Easily grab container statuses by using Docker labels.
+    - Service Integrations! 
+      - Sonarr, Radarr, Readarr, Prowlarr, Bazarr, Lidarr, Emby, Jellyfin, Tautulli (Plex), Ombi, Overseerr, Jellyseerr, Jackett, NZBGet, SABnzbd, ruTorrent, Transmission, qBittorrent, Portainer, Traefik, Speedtest Tracker, PiHole, AdGuard Home, Nginx Proxy Manager, Gotify, and more!</Overview>
+  <Category>Other:</Category>
+  <TemplateURL>https://raw.githubusercontent.com/LilTrublMakr/ltm-unraid-templates/master/templates/homepage.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/LilTrublMakr/ltm-unraid-templates/master/icons/homepage.png</Icon>
+  <PostArgs/>
+  <Changes>
+### 2022-09-18
+  - Initial template release.
+  </Changes>
+  <Config Name="Port" Target="3000" Default="3000" Mode="tcp" Description="Port" Type="Port" Display="always" Required="false" Mask="false">3000</Config>
+  <Config Name="Config" Target="/app/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/homepage/config</Config>
+  <Config Name="Icons" Target="/app/public/icons" Default="/mnt/user/appdata/homepage/icons" Mode="rw" Description="Icon images" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/homepage/icons</Config>
+</Container>
